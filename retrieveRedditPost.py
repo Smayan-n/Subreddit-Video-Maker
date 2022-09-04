@@ -6,14 +6,13 @@ from utility import *
 
 #creating a PRAW instance (read-only)
 
-#NOTE: PRIVATE INFO
+#NOTE: Create a reddit app at https://www.reddit.com/prefs/apps and put the relevaqnt information here for app to work
 reddit_read_only = praw.Reddit(
     #info from reddit app
-    client_id="oomNxT2Gs8Y3A7Y0k8r3uw", 
-    client_secret="gug_awr1tdeHSm28wDi1iBviJ7F4VA",
-    user_agent="Web Scraping",
+    client_id="Your app client ID", 
+    client_secret="your app client secret",
+    user_agent="your app user agent",
 )
-#NOTE: PRIVATE INFO
 
 
 #returns a post and a ceartain number of comments from a given subreddit
