@@ -13,7 +13,6 @@ def main():
     #make video
     makeVideo(reddit_post, console_output = True)
 
-
     #print total time taken for this video
     print(f"\nTime taken to make video: {round(time.time() - start_time, 2)} seconds")
     
